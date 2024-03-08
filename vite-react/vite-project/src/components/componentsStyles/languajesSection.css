@@ -1,0 +1,43 @@
+.languajes {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1vh;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .languajes {
+        gap: 1vw;
+    }
+
+    .languajeCard {
+        font-size: small;
+    }
+    .languajeCard img {
+        aspect-ratio: 1/1;
+        max-width: 30vw;
+        
+    }
+}
+
+.languajeCard img {
+    aspect-ratio: 1/1;
+}
+
+.languajeCard {
+
+    box-sizing: border-box; 
+    padding-top: 1.8%;
+    border-radius: 2vh;
+
+    text-align: center;
+
+    background-color: #251140;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

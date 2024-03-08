@@ -1,0 +1,15 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "description": "A general repository to create, modify and save randomly react projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-rest/ai-vision-image-analysis": "^1.0.0-beta.2"
+  }
+}
